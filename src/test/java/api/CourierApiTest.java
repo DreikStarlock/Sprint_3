@@ -12,7 +12,7 @@ import pojo.CourierPojo;
 
 public class CourierApiTest {
     private CourierPojo courier;
-    private СourierApi courierAPI;
+    private CourierApi courierAPI;
     private int createdCourierId;
     private boolean created;
     private Response response;
@@ -21,7 +21,7 @@ public class CourierApiTest {
 
     @Before
     public void setup() {
-        courierAPI = new СourierApi();
+        courierAPI = new CourierApi();
     }
 
     @After

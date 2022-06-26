@@ -5,7 +5,7 @@ import pojo.CourierCredentials;
 import pojo.CourierPojo;
 import io.qameta.allure.Step;
 
-public class СourierApi extends MainApi {
+public class CourierApi extends MainApi {
     @Step("Послать POST запрос на ручку /courier")
     public Response sendPostRequestCreateCourier(CourierPojo courierPojo) {
         return reqSpec.body(courierPojo)
